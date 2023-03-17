@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap');
+
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(73, 182, 224);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#add_notes {
+  background-color: #a6e5e566;
+  box-shadow: 10px 10px lightblue;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#label {
+  align-items: start;
+}
+
+.yournotes {
+  background-color: #a6e5e566;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.fillnote {
+  border: 2px solid rgb(94, 154, 194);
+  padding: 20px;
+  box-shadow: 5px 5px rgb(94, 154, 194);
+  background-color: white;
+  font-size: 2rem;
+}
+
+.yournotes h1 {
+  color: rgb(73, 182, 224);
+  padding-left: 600px;
+}
+
+#each_note {
+  position: relative;
+  padding-left: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#note_title {
+  padding: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  background-color:#ae97d2;
+  color: white;
+}
+
+.card-body {
+  position: relative;
+}
+
+#editors {
+  position: absolute;
+  right: 24px;
+  top: 15px;
+}
+
+.title {
+  display: inline-block;
+  max-width: 200px;
+}
+
+.card-desciption p {
+  font-size: 15px;
+  text-indent: 10px;
+  padding: 20px;
+}
+
+#exampleModal {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about p {
+  padding: 30px;
+}
+
+.user-buttons .btn {
+  margin: 0 10px;
+}
+
+.form-main {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #a6e5e566;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 43vh;
+  width: 25vw;
+  background-color: white;
+  color: rgb(73, 182, 224);
+  box-shadow: 10px 10px lightblue;
+}
+
+.form-container h1 {
+  margin: 30px 0;
+}
+
+.form-center .btn {
+  border-radius: 9%;
+
+}
+
+.form {
+  width: 60%;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #a78bdd;
+  border-color: #eff8f1;
+}
+
+.btn-success:hover{
+  color: #fff;
+  background-color: #8b9add;
+  border-color: #eff8f1;
+}
