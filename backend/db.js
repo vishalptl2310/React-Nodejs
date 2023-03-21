@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const mongooseURL = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000"
+const mongooseURL = ""//Connect your mongodb server
 mongoose.set("strictQuery", false);
 
 const connnectToMongo = async ()=> {
