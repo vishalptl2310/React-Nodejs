@@ -74,7 +74,6 @@ export default function NotesState(props) {
       },
 
     });
-    let json = await promise.json();
 
     setnotes(
       notes.filter((element) => {
@@ -95,7 +94,6 @@ export default function NotesState(props) {
         "auth-token": localStorage.getItem('token')
       },
     });
-    console.log(promise)
     let json = await promise.json();
     setnotes(json)
   }

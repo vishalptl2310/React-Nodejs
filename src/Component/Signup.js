@@ -9,7 +9,6 @@ export default function Signup() {
 
   const handleChange = (e) => {
       setcredentials({ ...credentials, [e.target.name]: e.target.value })
-      console.log(credentials)
     }
 
   const createUser = async (e) => {
@@ -38,10 +37,6 @@ export default function Signup() {
       if (json.success){
           localStorage.setItem("token", json.AuthToken)
           navigation('/');
-          console.log("successfull")
-      }
-      else{
-          console.log("not success")
       }
 
     }

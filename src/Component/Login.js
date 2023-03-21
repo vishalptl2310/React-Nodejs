@@ -34,10 +34,6 @@ export default function Login() {
         if (json.success){
             localStorage.setItem("token", json.AuthToken)
             navigation('/');
-            console.log("successfull")
-        }
-        else{
-            console.log("not success")
         }
 
       }

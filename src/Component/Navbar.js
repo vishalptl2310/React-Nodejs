@@ -10,8 +10,6 @@ export default function Navbar() {
         navigation("/login")
     }
 
-
-
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
